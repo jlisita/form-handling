@@ -1,0 +1,34 @@
+*
+,::before
+,::after
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container
+{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.formulaire
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.field
+{
+    margin-top:10px;
+}
+.bouton
+{
+    padding:5px 10px;
+}
